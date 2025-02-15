@@ -1,12 +1,11 @@
+import "../App.css";
 import Navbar from "./Navbar";
-import "../App.css"
 const Hero = () => {
   return (
     <section className=" min-h-screen">
         
       {/* Navbar inside Hero */}
-      <Navbar />
-
+      <Navbar/>
       {/* Hero Content */}
       <div className="container mx-auto text-center py-20">
         <h1 className="text-4xl font-bold text-gray-900">
