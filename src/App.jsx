@@ -1,10 +1,15 @@
 import React from 'react'
 import './App.css'
 import Hero from './components/hero'
+import Jobs from './pages/Jobs'
+import { Routes,Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div><Hero/></div>
+    <Routes>
+      <Route path="/" element={<Hero/>}/>
+      <Route path="/Jobs" element={<Jobs/>}/>
+      </Routes>
   )
 }
 
