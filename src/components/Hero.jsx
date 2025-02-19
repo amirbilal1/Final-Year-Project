@@ -1,8 +1,8 @@
-import React from 'react';
 import Navbar from './Navbar';
 import SearchBar from './SearchBar';
 
-const Hero = ({ showSearchBar = false, title, subtitle }) => {
+// eslint-disable-next-line react/prop-types
+const Hero = ({ showSearchBar,title,subtitle}) => {
   return (
     <section className=" min-h-screen bg-blue-200 bg-cene relative">
       {/* Navbar inside Hero */}
